@@ -1,0 +1,13 @@
+Lifehack regler
+Når det er ledd mellom plusstegn, så kan man ta hensyn til leddet som vokser raskets
+Konstanter og koffesienter kan man se bort ifra, eller redusere ned til 1
+Variabler kan faktoriseres for å gjøre det enklere å se hva som vokser rasketst
+Om algoritmen er avhengig av flere inputstørrelser så må man skille de ved bruk av n og m
+NB! Bare for at m og n begge grenser mot uendelig, så kan ikke O(m+n) forkortes til O(n)
+
+
+
+O(n^3 + 50n^2 + 10000)
+O((n + 30) * (n + 5))
+O( nlog(n) + log(n)log(n))
+O(n + n + n + n + n + n)

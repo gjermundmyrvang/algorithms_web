@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SORTING QUIZ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="quizstyle.css" />
+  <link rel="icon" href="bilder/logo/logo1.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body class="quizBody">
+  <main class="main">
+    <header style="background: aqua">
+      <div class="logo">
+        <h1 class="logo-text">THE SORTQUIZZZ</h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+      </ul>
+    </header>
+
+    <div class="quiz-container">
+      <section class="the-quiz">
+        <div class="quiz-box" id="sortBorder">
+          <h1 id="sortHeader">SORTING QUIZ</h1>
+          <div class="quiz-header" style="border-bottom: 2px solid aqua">
+            <span>QUIZ BY GJERRYMCNUGGET</span>
+            <span class="header-score" id="sortingHeaderScore"></span>
+          </div>
+          <h2 class="question-text"></h2>
+          <div class="option-list"></div>
+          <div class="quiz-footer" style="border-top: 2px solid aqua">
+            <span class="questions-total"></span>
+            <button class="next-btn">NEXT</button>
+          </div>
+        </div>
+
+        <div class="result-box" id="sortBorder">
+          <h2>QUIZ RESULTS</h2>
+          <div class="percentage-container" id="sort">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+            <span class="score-text"></span>
+          </div>
+
+          <div class="buttons" id="sort">
+            <button class="tryAgain-btn">TRY AGAIN</button>
+            <button class="goHome-btn">GO HOME</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quiz">
+        <div class="quiz-innhold" id="sortBorder">
+          <h1>SORTING QUIZ</h1>
+          <p>
+            Welcome to the sorting quiz! <br /><br />Sorting algorithms are an
+            essential part of computer science and programming.
+            <br /><br />They are used to arrange data in order, from smallest
+            to largest or vice versa.<br /><br />In this quiz, you will be
+            presented with well known sortingalgorithms <br /><br />Your task
+            is to remember the fundementals of these algorithms and choose the
+            correct answer.
+          </p>
+          <button class="start-btn">START QUIZ</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+
+  <div class="popup-info" id="sortBorder">
+    <h1>QUIZ GUIDELINES</h1>
+    <span class="info">1. Only one answer is correct.</span>
+    <span class="info">2. Read the code snippets carefully before answering.</span>
+    <span class="info">3. Correct answers will be highlighted in green, wrong ones in red.</span>
+    <span class="info">4. You are not being timed, so don't stress.</span>
+    <span class="info">5. Finally, good luck!.</span>
+    <div class="btn-group">
+      <button class="info-btn exit-btn">EXIT</button>
+      <a href="#" class="info-btn continue-btn">CONTINUE</a>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+  <script src="sortingQuestions.js"></script>
+</body>
+
+</html>
